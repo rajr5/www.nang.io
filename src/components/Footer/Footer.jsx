@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
+import { Box, Container, Text } from "gestalt";
 import UserLinks from "../UserLinks/UserLinks";
 import "./Footer.css";
 
@@ -13,13 +14,11 @@ class Footer extends Component {
     }
     return (
       <footer className="footer">
-        <UserLinks config={config} labeled />
-        <div className="notice-container">
-          <Link to={url}>
-            <button>Subscribe</button>
-          </Link>
-          <h4>{copyright}</h4>
-        </div>
+        <Container>
+          <Box marginTop={12}>
+            <Text align="center">{copyright}</Text>
+          </Box>
+        </Container>
       </footer>
     );
   }

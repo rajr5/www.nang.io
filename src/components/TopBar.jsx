@@ -25,12 +25,16 @@ export default class TopBar extends Component {
 
         <Box flex="shrink" paddingX={4} paddingY={2}>
           <Text size="xl" bold={true}>
-            <a href="/contact">Contact</a>
+            <a href="/contact" className="no-link">
+              Contact
+            </a>
           </Text>
         </Box>
         <Box flex="shrink" paddingX={4} paddingY={2}>
           <Text size="xl" bold={true}>
-            <a href="/blog">Blog</a>
+            <a href="/blog" className="no-link">
+              Blog
+            </a>
           </Text>
         </Box>
       </Box>

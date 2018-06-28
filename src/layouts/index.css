@@ -631,9 +631,7 @@ pre tt:after {
   color: #3191ff;
 }
 
-/* TODO: redo for blog posts */
-a:any-link,
-a:-webkit-any-link {
+.no-link {
   text-decoration: none;
   color: #555;
 }

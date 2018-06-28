@@ -19,19 +19,25 @@ export default class Bio extends Component {
           justifyContent="between"
           width="300px"
         >
-          <a className="connect-icon" href="https://github.com/pcsforeducation">
+          <a
+            className="connect-icon primary"
+            href="https://github.com/pcsforeducation"
+          >
             <i className="fab fa-github-square" size="2x" />
           </a>
-          <a className="connect-icon" href="https://github.com/joshgachnang">
+          <a
+            className="connect-icon primary"
+            href="https://github.com/joshgachnang"
+          >
             <i className="fab fa-twitter-square" size="2x" />
           </a>
           <a
-            className="connect-icon"
+            className="connect-icon primary"
             href="https://www.linkedin.com/in/joshgachnang/"
           >
             <i className="fab fa-linkedin" size="2x" />
           </a>
-          <a className="connect-icon" href="mailto:josh@nang.io">
+          <a className="connect-icon primary" href="mailto:josh@nang.io">
             <i className="fas fa-envelope-square" size="2x" />
           </a>
         </Box>

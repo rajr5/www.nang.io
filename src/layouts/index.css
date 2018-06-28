@@ -639,4 +639,5 @@ pre tt:after {
 .connect-icon {
   font-size: 38px;
   display: flex;
+  text-decoration: none;
 }

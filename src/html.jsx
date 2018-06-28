@@ -37,6 +37,12 @@ export default class HTML extends React.Component {
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           {css}
+          {/* <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.1.0/css/all.css"
+            integrity="sha384-87DrmpqHRiY8hPLIr7ByqhPIywuSsjuQAfMXAE0sMUpY3BM7nXjf+mLIUSvhDArs"
+            crossOrigin="anonymous"
+          /> */}
         </head>
         <body>
           <div

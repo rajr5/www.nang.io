@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import "gestalt/dist/gestalt.css";
 import "@fortawesome/fontawesome/styles.css";
-import "@fortawesome/fontawesome-pro/css/all.css";
+// import "@fortawesome/fontawesome-pro/css/all.css";
 
 import config from "../../data/SiteConfig";
 import TopBar from "../components/TopBar";

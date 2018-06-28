@@ -7,13 +7,9 @@ import {
   RedditShareButton,
   FacebookShareCount,
   LinkedinShareCount,
-  RedditShareCount,
-  FacebookIcon,
-  TwitterIcon,
-  TelegramIcon,
-  LinkedinIcon,
-  RedditIcon
+  RedditShareCount
 } from "react-share";
+import FontAwesome from "react-fontawesome";
 import config from "../../../data/SiteConfig";
 import "./SocialLinks.css";
 
@@ -30,16 +26,16 @@ class SocialLinks extends Component {
     return (
       <div className="social-links">
         <RedditShareButton url={url} title={post.title}>
-          <RedditIcon round size={iconSize} />
+          <FontAwesome name="reddit" size="2x" />
           <RedditShareCount url={url}>
             {count => <div className="share-count">{filter(count)}</div>}
           </RedditShareCount>
         </RedditShareButton>
         <TwitterShareButton url={url} title={post.title}>
-          <TwitterIcon round size={iconSize} />
+          <FontAwesome name="twitter" size="2x" />
         </TwitterShareButton>
         <FacebookShareButton url={url} quote={postNode.excerpt}>
-          <FacebookIcon round size={iconSize} />
+          <FontAwesome name="facebook" size="2x" />
           <FacebookShareCount url={url}>
             {count => <div className="share-count">{filter(count)}</div>}
           </FacebookShareCount>
@@ -49,13 +45,13 @@ class SocialLinks extends Component {
           title={post.title}
           description={postNode.excerpt}
         >
-          <LinkedinIcon round size={iconSize} />
+          <FontAwesome name="linkedin" size="2x" />
           <LinkedinShareCount url={url}>
             {count => <div className="share-count">{filter(count)}</div>}
           </LinkedinShareCount>
         </LinkedinShareButton>
         <TelegramShareButton url={url}>
-          <TelegramIcon round size={iconSize} />
+          <FontAwesome name="telegram" size="2x" />
         </TelegramShareButton>
       </div>
     );

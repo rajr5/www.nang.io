@@ -1,30 +1,40 @@
 import React, { Component } from "react";
 import { Box, Container } from "gestalt";
-import FontAwesome from "react-fontawesome";
 
 export default class Bio extends Component {
   render() {
     return (
-      <Box>
+      <Box display="flex" direction="column">
         <h3>
           Hello! I'm Josh Gachnang, a{" "}
           <span className="primary">software developer</span> living in Chicago,
           currently working for Triggr Health.
         </h3>
-        <p>
-          <a href="https://github.com/pcsforeducation">
-            <FontAwesome name="github-square" size="2x" />
+
+        <Box
+          alignSelf="center"
+          alignContent="center"
+          direction="row"
+          display="flex"
+          justifyContent="between"
+          width="300px"
+        >
+          <a className="connect-icon" href="https://github.com/pcsforeducation">
+            <i className="fab fa-github-square" size="2x" />
           </a>
-          <a href="https://github.com/joshgachnang">
-            <FontAwesome name="twitter-square" size="2x" />
+          <a className="connect-icon" href="https://github.com/joshgachnang">
+            <i className="fab fa-twitter-square" size="2x" />
           </a>
-          <a href="https://www.linkedin.com/in/joshgachnang/">
-            <FontAwesome name="linkedin-square" size="2x" />
+          <a
+            className="connect-icon"
+            href="https://www.linkedin.com/in/joshgachnang/"
+          >
+            <i className="fab fa-linkedin" size="2x" />
           </a>
-          <a href="mailto:josh@nang.io">
-            <FontAwesome name="envelope-square" size="2x" />
+          <a className="connect-icon" href="mailto:josh@nang.io">
+            <i className="fas fa-envelope-square" size="2x" />
           </a>
-        </p>
+        </Box>
       </Box>
     );
   }

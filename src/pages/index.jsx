@@ -13,11 +13,13 @@ class Index extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Container>
-        <Helmet title={config.siteTitle} />
-        <SEO postEdges={postEdges} />
-        <Bio />
-        <Resume resume={config.resume} />
-        <PostListing postEdges={postEdges} />
+        <Box paddingX={4} paddingY={12}>
+          <Helmet title={config.siteTitle} />
+          <SEO postEdges={postEdges} />
+          <Bio />
+          {/* <Resume resume={config.resume} /> */}
+          {/* <PostListing postEdges={postEdges} /> */}
+        </Box>
       </Container>
     );
   }

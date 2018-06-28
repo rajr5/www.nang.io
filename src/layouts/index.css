@@ -630,3 +630,15 @@ pre tt:after {
 .secondary {
   color: #3191ff;
 }
+
+/* TODO: redo for blog posts */
+a:any-link,
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #555;
+}
+
+.connect-icon {
+  font-size: 38px;
+  display: flex;
+}

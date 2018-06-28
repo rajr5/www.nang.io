@@ -4,8 +4,10 @@ import { Box, Text } from "gestalt";
 export default class TopBar extends Component {
   renderExperience(exp) {
     return (
-      <Box key={exp.title}>
-        <Text size="xl">{exp.title}</Text>
+      <Box key={exp.title} marginBottom={2}>
+        <Text size="lg" bold={true}>
+          {exp.title}
+        </Text>
         {/* todo underline */}
         <Text size="md" italic={true}>
           {exp.subtitle}
@@ -20,7 +22,14 @@ export default class TopBar extends Component {
       return null;
     }
     return (
-      <Box>{this.props.resume.map(exp => this.renderExperience(exp))}</Box>
+      <Box>
+        <Box marginBottom={3}>
+          <Text size="xl" bold={true}>
+            <span className="primary">Experience</span>
+          </Text>
+        </Box>
+        {this.props.resume.map(exp => this.renderExperience(exp))}
+      </Box>
     );
   }
 }

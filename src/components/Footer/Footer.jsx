@@ -16,7 +16,8 @@ class Footer extends Component {
       <footer className="footer">
         <Container>
           <Box marginTop={12}>
-            <Text align="center">{copyright}</Text>
+            {/* I don't think the copyright footer really does anything.. */}
+            {/* <Text align="center">{copyright}</Text> */}
           </Box>
         </Container>
       </footer>

@@ -8,21 +8,30 @@ export default class TopBar extends Component {
         width="100%"
         display="flex"
         direction="row"
-        height="60px"
-        paddingX={10}
-        paddingY={5}
+        // height="72px"
+        smPaddingX={2}
+        mdPaddingX={10}
+        mdPaddingY={5}
+        smPaddingY={1}
       >
-        <Box flex="shrink" paddingX={10} paddingY={2}>
-          <Text>
-            <span className="site-title">Josh Gachnang</span>
+        <Box flex="shrink" paddingX={4} paddingY={2}>
+          <Text size="xl" bold={true}>
+            <a href="/" className="no-link">
+              <span className="site-title">Josh Gachnang</span>
+            </a>
           </Text>
         </Box>
         <Box flex="grow" />
-        <Box flex="shrink" paddingX={10} paddingY={2}>
-          <Text>Contact</Text>
+
+        <Box flex="shrink" paddingX={4} paddingY={2}>
+          <Text size="xl" bold={true}>
+            <a href="/contact">Contact</a>
+          </Text>
         </Box>
-        <Box flex="shrink" paddingX={10} paddingY={2}>
-          <Text>Blog</Text>
+        <Box flex="shrink" paddingX={4} paddingY={2}>
+          <Text size="xl" bold={true}>
+            <a href="/blog">Blog</a>
+          </Text>
         </Box>
       </Box>
     );

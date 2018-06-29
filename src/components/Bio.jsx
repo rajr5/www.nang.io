@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Box, Container } from "gestalt";
+import { Box, Text } from "gestalt";
 
 export default class Bio extends Component {
   render() {
@@ -10,37 +10,27 @@ export default class Bio extends Component {
           <span className="primary">software developer</span> living in Chicago,
           currently working for Triggr Health.
         </h3>
+        <h4>
+          I deeply believe in using software to make the world a better place.
+          I'm self-motivated and driven to make an impact. I enjoy sharing what
+          I've learned through mentoring, blogging, and giving talks. I also
+          enjoy working on side projects. Some of my favorites are{" "}
+          <a href="https://github.com/pcsforeducation/val">Val</a>, a chatbot
+          that automates parts of my life,{" "}
+          <a href="https://avotoast.app">AvoToast</a>, a recipe, cost, and
+          nutrition tracking app, and{" "}
+          <a href="https://github.com/pcsforeducation/magic-mirror">
+            Magic Mirror
+          </a>, which runs displays and control panels throughout my house.
+        </h4>
 
         <Box
           alignSelf="center"
           alignContent="center"
-          direction="row"
+          direction="column"
           display="flex"
-          justifyContent="between"
           width="300px"
-        >
-          <a
-            className="connect-icon primary"
-            href="https://github.com/pcsforeducation"
-          >
-            <i className="fab fa-github-square" size="2x" />
-          </a>
-          <a
-            className="connect-icon primary"
-            href="https://github.com/joshgachnang"
-          >
-            <i className="fab fa-twitter-square" size="2x" />
-          </a>
-          <a
-            className="connect-icon primary"
-            href="https://www.linkedin.com/in/joshgachnang/"
-          >
-            <i className="fab fa-linkedin" size="2x" />
-          </a>
-          <a className="connect-icon primary" href="mailto:josh@nang.io">
-            <i className="fas fa-envelope-square" size="2x" />
-          </a>
-        </Box>
+        />
       </Box>
     );
   }

@@ -12,7 +12,7 @@ export default class TopBar extends Component {
         <Text size="md" italic={true}>
           {exp.subtitle}
         </Text>
-        <Text>{exp.body}</Text>
+        <Text overflow="normal">{exp.body}</Text>
       </Box>
     );
   }

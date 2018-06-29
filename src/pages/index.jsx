@@ -17,7 +17,7 @@ class Index extends React.Component {
           <Helmet title={config.siteTitle} />
           <SEO postEdges={postEdges} />
           <Bio />
-          {/* <Resume resume={config.resume} /> */}
+          <Resume resume={config.resume} />
           {/* <PostListing postEdges={postEdges} /> */}
         </Box>
       </Container>

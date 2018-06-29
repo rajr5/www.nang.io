@@ -43,12 +43,20 @@ module.exports = {
     {
       title: "Triggr Health",
       subtitle: "2015 - present",
-      body: ""
+      body:
+        "I was the first engineering hire. In the first 3 months, I helped migrate our backend to Mongo and NodeJS from Parse & a hosted HIPAA DB. I led the team to build a community feature in our app for supporting your peers, rewrote our native apps in React Native to increase iteration speed, and adding interest-based groups to our community. During a hackweek, I built a display that shows random patients' reasons for getting sober to remind our team why we do what we do. I've worked with React, React Native, NodeJS, iOS & Swift, Android & Java, Mongo, Ansible & AWS to build product features."
     },
     {
       title: "Rackspace",
       subtitle: "2013-2015",
-      body: ""
+      body:
+        "I helped launch and build the second version of Rackspace OnMetal, a bare metal cloud product using OpenStack Ironic. I contributed heavily to OpenStack Ironic and other OpenStack projects. I was a Core Reviewer on the Ironic Python Agent, a deployment agent for servers, and a top reviewer for the Ironic project. I gave two talks at OpenStack summits about our project."
+    },
+    {
+      title: "Swoop Srch",
+      subtitle: "2010-2011",
+      body:
+        "I helped build the first version of Swoop Srch, an apartment search application that let you rank which features in an apartment were most important (price, bedrooms, etc) and showed the most relevant. I developed the frontend, backend, and a crawler to make the most complete apartment database at the time."
     }
   ]
 };

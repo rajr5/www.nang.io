@@ -24,18 +24,34 @@ export default class TopBar extends Component {
         <Box flex="grow" />
 
         <Box flex="shrink" paddingX={4} paddingY={2}>
-          <Text size="xl" bold={true}>
-            <a href="/contact" className="no-link">
-              Contact
+          <Box
+            width="160px"
+            display="flex"
+            direction="row"
+            justifyContent="between"
+          >
+            <a
+              className="connect-icon primary"
+              href="https://github.com/pcsforeducation"
+            >
+              <i className="fab fa-github-square" />
             </a>
-          </Text>
-        </Box>
-        <Box flex="shrink" paddingX={4} paddingY={2}>
-          <Text size="xl" bold={true}>
-            <a href="/blog" className="no-link">
-              Blog
+            <a
+              className="connect-icon primary"
+              href="https://github.com/joshgachnang"
+            >
+              <i className="fab fa-twitter-square" />
             </a>
-          </Text>
+            <a
+              className="connect-icon primary"
+              href="https://www.linkedin.com/in/joshgachnang/"
+            >
+              <i className="fab fa-linkedin" />
+            </a>
+            <a className="connect-icon primary" href="mailto:josh@nang.io">
+              <i className="fas fa-envelope-square" />
+            </a>
+          </Box>
         </Box>
       </Box>
     );

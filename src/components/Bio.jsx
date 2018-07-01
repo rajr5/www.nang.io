@@ -6,9 +6,8 @@ export default class Bio extends Component {
     return (
       <Box display="flex" direction="column">
         <h3>
-          Hello! I'm Josh Gachnang, a{" "}
-          <span className="primary">software developer</span> living in Chicago,
-          currently working for Triggr Health.
+          Hello! I'm <span className="primary">Josh Gachnang</span>, a software
+          developer living in Chicago, currently working for Triggr Health.
         </h3>
         <h4>
           I deeply believe in using software to make the world a better place.

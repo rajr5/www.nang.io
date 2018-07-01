@@ -24,18 +24,18 @@ class SocialLinks extends Component {
     const filter = count => (count > 0 ? count : "");
 
     return (
-      <div className="social-links">
+      <div className="social-links primary">
         <RedditShareButton url={url} title={post.title}>
-          <FontAwesome name="reddit" size="2x" />
+          <i className="fab fa-reddit" />
           <RedditShareCount url={url}>
             {count => <div className="share-count">{filter(count)}</div>}
           </RedditShareCount>
         </RedditShareButton>
         <TwitterShareButton url={url} title={post.title}>
-          <FontAwesome name="twitter" size="2x" />
+          <i className="fab fa-twitter" />
         </TwitterShareButton>
         <FacebookShareButton url={url} quote={postNode.excerpt}>
-          <FontAwesome name="facebook" size="2x" />
+          <i className="fab fa-facebook" />
           <FacebookShareCount url={url}>
             {count => <div className="share-count">{filter(count)}</div>}
           </FacebookShareCount>
@@ -45,13 +45,13 @@ class SocialLinks extends Component {
           title={post.title}
           description={postNode.excerpt}
         >
-          <FontAwesome name="linkedin" size="2x" />
+          <i className="fab fa-linkedin" />{" "}
           <LinkedinShareCount url={url}>
             {count => <div className="share-count">{filter(count)}</div>}
           </LinkedinShareCount>
         </LinkedinShareButton>
         <TelegramShareButton url={url}>
-          <FontAwesome name="telegram" size="2x" />
+          <i className="fab fa-telegram" />
         </TelegramShareButton>
       </div>
     );

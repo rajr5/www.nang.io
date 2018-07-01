@@ -623,6 +623,14 @@ pre tt:after {
   }
 }
 
+a:-webkit-any-link,
+a:any-link {
+  color: #3191ff;
+  text-decoration: none;
+}
+
+a:-webkit-any-link.primary,
+a:any-link.primary,
 .primary {
   color: #ff8031;
 }

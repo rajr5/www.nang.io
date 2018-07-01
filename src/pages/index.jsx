@@ -10,6 +10,7 @@ import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
   render() {
+    console.log("DATA", this.props.data);
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Container>
@@ -18,7 +19,7 @@ class Index extends React.Component {
           <SEO postEdges={postEdges} />
           <Bio />
           <Resume resume={config.resume} />
-          {/* <PostListing postEdges={postEdges} /> */}
+          <PostListing postEdges={postEdges} />
         </Box>
       </Container>
     );

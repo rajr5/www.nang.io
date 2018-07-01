@@ -1,5 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { Container } from "gestalt";
+
 import UserInfo from "../components/UserInfo/UserInfo";
 // import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
@@ -13,6 +15,7 @@ export default class PostTemplate extends React.Component {
   render() {
     const { slug } = this.props.pathContext;
     const postNode = this.props.data.markdownRemark;
+    console.log("POST", this.props.data);
     const post = postNode.frontmatter;
     if (!post.id) {
       post.id = slug;
@@ -21,7 +24,7 @@ export default class PostTemplate extends React.Component {
       post.category_id = config.postDefaultCategoryID;
     }
     return (
-      <div>
+      <Container>
         <Helmet>
           <title>{`${post.title} | ${config.siteTitle}`}</title>
         </Helmet>
@@ -30,13 +33,13 @@ export default class PostTemplate extends React.Component {
           <h1>{post.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className="post-meta">
-            <PostTags tags={post.tags} />
+            {/* <PostTags tags={post.tags} /> */}
             <SocialLinks postPath={slug} postNode={postNode} />
           </div>
           <UserInfo config={config} />
           {/* <Disqus postNode={postNode} /> */}
         </div>
-      </div>
+      </Container>
     );
   }
 }

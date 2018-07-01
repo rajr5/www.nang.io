@@ -23,7 +23,7 @@ export default class TopBar extends Component {
     }
     return (
       <Box>
-        <Box marginBottom={3}>
+        <Box marginTop={6} marginBottom={6}>
           <Text size="xl" bold={true}>
             <span className="primary">Experience</span>
           </Text>

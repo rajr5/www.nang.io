@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Box, Text } from "gestalt";
+import logo from "../../static/logos/josh.png";
 
 export default class TopBar extends Component {
   render() {
@@ -17,7 +18,7 @@ export default class TopBar extends Component {
         <Box flex="shrink" paddingX={4} paddingY={2}>
           <Text size="xl" bold={true}>
             <a href="/" className="no-link">
-              <span className="site-title">Josh Gachnang</span>
+              <img style={{ maxHeight: "60px", marginBottom: 0 }} src={logo} />
             </a>
           </Text>
         </Box>

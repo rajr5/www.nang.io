@@ -21,8 +21,14 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <Box padding={4}>
-        {postList.map(post => <PostCard key={post.title} post={post} />)}
+      <Box marginTop={6} marginBottom={6}>
+        <Text size="xl" bold={true}>
+          <span className="primary">Blog</span>
+        </Text>
+
+        <Box paddingY={4} display="flex" direction="column">
+          {postList.map(post => <PostCard key={post.title} post={post} />)}
+        </Box>
       </Box>
     );
   }
@@ -44,25 +50,32 @@ class PostCard extends React.Component {
 
   render() {
     let post = this.props.post;
-    console.log("POST", post);
     return (
-      <Box maxWidth={476} padding={4} color="lightGray" shape="rounded">
+      <div
+        style={{
+          maxWidth: "600px",
+          border: "1px solid #ccc",
+          borderRadius: "5px",
+          marginBottom: "20px"
+        }}
+      >
         <Image
           alt={`Cover image for ${post.title}`}
           src={post.cover}
           naturalWidth={440}
           naturalHeight={116}
         />
-        <Text align="center" bold size="xl">
-          <a href={post.path}>
-            <Box paddingX={3} paddingY={2}>
-              {post.title}
-            </Box>
-          </a>
-        </Text>
-        <Text>{post.excerpt}</Text>
-        {/* </Card> */}
-      </Box>
+        <Box padding={4}>
+          <Text align="center" bold size="xl">
+            <a href={post.path}>
+              <Box paddingX={3} paddingY={2}>
+                {post.title}
+              </Box>
+            </a>
+          </Text>
+          <Text>{post.excerpt}</Text>
+        </Box>
+      </div>
     );
   }
 }

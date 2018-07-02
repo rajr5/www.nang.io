@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Box, Text } from "gestalt";
-import logo from "../../static/logos/josh.png";
+import logo from "./josh.svg";
 
 export default class TopBar extends Component {
   render() {

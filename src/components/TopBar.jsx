@@ -17,7 +17,7 @@ export default class TopBar extends Component {
       >
         <Box flex="shrink" paddingX={4} paddingY={2}>
           <Text size="xl" bold={true}>
-            <a href="/" className="no-link">
+            <a href="/" className="no-link" alt="Josh Gachnang">
               <img style={{ maxHeight: "60px", marginBottom: 0 }} src={logo} />
             </a>
           </Text>

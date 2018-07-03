@@ -1,6 +1,6 @@
 ---
 title: "2017"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530544496/nangio/book-bookcase-books-1166657.jpg"
 date: "2017/01/01"
 category: "personal"
 tags:

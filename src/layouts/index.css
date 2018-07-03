@@ -649,3 +649,8 @@ a:any-link.primary,
   display: flex;
   text-decoration: none;
 }
+
+.post-item img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}

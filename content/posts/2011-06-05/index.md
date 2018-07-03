@@ -1,6 +1,6 @@
 ---
 title: "Using Apache Benchmarking Tool to Stress Test Your Server"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530548596/nangio/StockSnap_HBA3AW23N8.jpg"
 date: "2011/06/05"
 category: "tech"
 tags:

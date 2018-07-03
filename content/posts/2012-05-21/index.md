@@ -1,6 +1,6 @@
 ---
 title: "Django Performance Tuning"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530548349/nangio/StockSnap_93H1NRUXTO.jpg"
 date: "2012/05/21"
 category: "tech"
 tags:

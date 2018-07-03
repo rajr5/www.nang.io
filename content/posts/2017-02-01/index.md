@@ -1,6 +1,6 @@
 ---
 title: "January Recap, Slow Carb February"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530544493/nangio/StockSnap_G3SXPR90XV.jpg"
 date: "2017/02/01"
 category: "personal"
 tags:

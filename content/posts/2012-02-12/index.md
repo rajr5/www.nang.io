@@ -1,6 +1,6 @@
 ---
 title: "FreeNAS to Ubuntu: Torrent Server (Transmission)"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530543860/nangio/StockSnap_OCBS9JTNWW.jpg"
 date: "2012/02/12"
 category: "tech"
 tags:

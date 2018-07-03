@@ -1,7 +1,7 @@
 ---
 title: "Kids Need Computers Too!"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
-date: "2017/01/01"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530544488/nangio/child-computer-cute-159848.jpg"
+date: "2010/11/07"
 category: "personal"
 tags:
     - personal

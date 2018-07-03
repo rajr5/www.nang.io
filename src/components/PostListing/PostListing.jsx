@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import { Box, Card, Image, Text } from "gestalt";
+import LazyLoad from "react-lazyload";
 
 class PostListing extends React.Component {
   getPostList() {
@@ -58,13 +59,16 @@ class PostCard extends React.Component {
           borderRadius: "5px",
           marginBottom: "20px"
         }}
+        className="post-item"
       >
-        <Image
-          alt={`Cover image for ${post.title}`}
-          src={post.cover}
-          naturalWidth={440}
-          naturalHeight={116}
-        />
+        <LazyLoad height={400} offset={300}>
+          <Image
+            alt={`Cover image for ${post.title}`}
+            src={post.cover}
+            naturalWidth={600}
+            naturalHeight={400}
+          />
+        </LazyLoad>
         <Box padding={4}>
           <Text align="center" bold size="xl">
             <a href={post.path}>

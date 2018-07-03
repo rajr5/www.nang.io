@@ -1,6 +1,6 @@
 ---
 title: "How I Built TriviaStats.com"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530542625/nangio/StockSnap_JBZCLRFT3A.jpg"
 date: "2015/04/14"
 category: "tech"
 tags:

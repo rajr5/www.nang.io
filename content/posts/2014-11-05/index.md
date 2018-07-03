@@ -1,6 +1,6 @@
 ---
 title: "OpenStack Paris Talk: Hardware in the Cloud"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530548189/nangio/Screen_Shot_2018-07-02_at_10.14.30_AM.png"
 date: "2014/11/05"
 category: "tech"
 tags:

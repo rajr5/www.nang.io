@@ -1,6 +1,6 @@
 ---
 title: "Dive Into Python Mirror"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530543861/nangio/StockSnap_JRZLVU1DKI.jpg"
 date: "2011/11/01"
 category: "tech"
 tags:

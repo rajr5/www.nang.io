@@ -1,6 +1,6 @@
 ---
 title: "OpenStack Vancouver Talk: Operating Ironic"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530544491/nangio/Screen_Shot_2018-07-02_at_10.13.39_AM.png"
 date: "2015/05/20"
 category: "tech"
 tags:

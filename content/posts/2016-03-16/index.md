@@ -1,6 +1,6 @@
 ---
 title: "Programming for Real Time: TriviaStats.com"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530544493/nangio/StockSnap_GCBKO6CFTA.jpg"
 date: "2016/03/16"
 category: "tech"
 tags:

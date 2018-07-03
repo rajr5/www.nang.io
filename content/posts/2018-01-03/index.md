@@ -1,6 +1,6 @@
 ---
 title: "Simplest Backup With S3"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530543850/nangio/StockSnap_BSALH690F5.jpg"
 date: "2018/01/03"
 category: "tech"
 tags:

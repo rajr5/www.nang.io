@@ -1,6 +1,6 @@
 ---
 title: "Fabric XMPP Chat"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530544497/nangio/architecture-bridge-buildings-1168940.jpg"
 date: "2013/08/09"
 category: "personal"
 tags:

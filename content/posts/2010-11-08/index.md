@@ -1,7 +1,7 @@
 ---
 title: "Check if script is run as root/user in Bash"
-cover: "https://unsplash.it/1152/300/?random?BirchintheRoses"
-date: "2010/11/07"
+cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:good,w_600/v1530548822/nangio/StockSnap_O8XGKF1LPQ.jpg"
+date: "2010/11/08"
 category: "tech"
 tags:
     - bash

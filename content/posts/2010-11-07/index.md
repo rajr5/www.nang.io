@@ -7,7 +7,7 @@ tags:
     - personal
 ---
 
-This isn’t a tutorial…yet. Hopefully, when we get a little farther, I’ll post the tutorial so anyone can do this at their school and help countless people. We will be using the PXE Boot Server, FAI Server, Tech Tools, and a couple of other things that already have tutorials!
+This isn’t a tutorial…yet. Hopefully, when we get a little further, I’ll post the tutorial so anyone can do this at their school and help countless people. We will be using the PXE Boot Server, FAI Server, Tech Tools, and a couple of other things that already have tutorials!
 
 On Friday, October 2, my college roommate and I showed up at one of the elementary schools in our home town to help in the most exciting project we have ever been apart of. We (mostly him, really) had set up 15 computers that the school was going to pay to have recycled. Instead, we cleaned them up, tested them, and installed Edubuntu on them.
 

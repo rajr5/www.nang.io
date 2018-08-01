@@ -1,12 +1,11 @@
+import { Box, Container } from "gestalt";
 import React from "react";
 import Helmet from "react-helmet";
-import { Box, Container } from "gestalt";
-import PostListing from "../components/PostListing/PostListing";
-import SEO from "../components/SEO/SEO";
-import Bio from "../components/Bio";
-import Resume from "../components/Resume";
-
 import config from "../../data/SiteConfig";
+import Bio from "../components/Bio";
+import PostListing from "../components/PostListing/PostListing";
+import Resume from "../components/Resume";
+import SEO from "../components/SEO/SEO";
 
 class Index extends React.Component {
   render() {
@@ -14,7 +13,7 @@ class Index extends React.Component {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Container>
-        <Box paddingX={4} paddingY={12}>
+        <Box paddingX={4}>
           <Helmet title={config.siteTitle} />
           <SEO postEdges={postEdges} />
           <Bio />

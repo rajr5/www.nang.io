@@ -22,7 +22,7 @@ module.exports = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/pcsforeducation",
+      url: "https://github.com/joshgachnang",
       iconClassName: "fa fa-github"
     },
     {

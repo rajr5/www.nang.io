@@ -39,13 +39,13 @@ export default class TopBar extends Component {
           >
             <a
               className="connect-icon primary"
-              href="https://github.com/pcsforeducation"
+              href="https://github.com/joshgachnang"
             >
               <i className="fab fa-github-square" />
             </a>
             <a
               className="connect-icon primary"
-              href="https://github.com/pcsforeducation"
+              href="https://github.com/joshgachnang"
             >
               <i className="fab fa-twitter-square" />
             </a>

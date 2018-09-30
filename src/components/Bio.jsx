@@ -34,13 +34,14 @@ export default class Bio extends Component {
           I'm self-motivated and driven to make an impact. I enjoy sharing what
           I've learned through mentoring, blogging, and giving talks. I also
           enjoy working on side projects. Some of my favorites are{" "}
-          <a href="https://github.com/pcsforeducation/val">Val</a>, a chatbot
-          that automates parts of my life,{" "}
+          <a href="https://github.com/joshgachnang/val">Val</a>, a chatbot that
+          automates parts of my life,{" "}
           <a href="https://avotoast.app">AvoToast</a>, a recipe, cost, and
           nutrition tracking app, and{" "}
-          <a href="https://github.com/pcsforeducation/magic-mirror">
+          <a href="https://github.com/joshgachnang/magic-mirror">
             Magic Mirror
-          </a>, which runs displays and control panels throughout my house.
+          </a>
+          , which runs displays and control panels throughout my house.
         </h4>
 
         <Box

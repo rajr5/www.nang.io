@@ -4,7 +4,7 @@ cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:go
 date: "2015/04/14"
 category: "tech"
 tags:
-    - python
+  - python
 ---
 
 Every year, hundreds of teams and thousands of people gather near Stevens
@@ -45,20 +45,20 @@ things were. To get started, I used Yeoman, which is a tool
 that generates a blank project for you with all your dependencies
 already configured. It cuts out the boilerplate. I choose:
 
-* AngularJS, which I've been using in other side projects for a while
+- AngularJS, which I've been using in other side projects for a while
   now. It helps cut down on spaghetti code in Javascript, and is very
   batteries-included. For example, the Resource library is an excellent
   way to interact with REST APIs.
-* Angular Material instead of Bootstrap or Foundation. Mobile-first
+- Angular Material instead of Bootstrap or Foundation. Mobile-first
   is the name of the game, and Material Design looks great on mobile.
-* Jade instead of HTML. No more '<' or '>' or even ending tags.
+- Jade instead of HTML. No more '<' or '>' or even ending tags.
   You signify nesting with indents, which feels natural coming from
   Python.
-* SCSS instead of straight CSS. Adds variables to your CSS, interesting
+- SCSS instead of straight CSS. Adds variables to your CSS, interesting
   nesting features, all while still being valid CSS. SASS is another
   step up, again using indentation instead of braces. I thought SCSS
   would be a slightly easier transition.
-* Gulp to make building, testing, and developing easier. One command
+- Gulp to make building, testing, and developing easier. One command
   to build and deploy the app to production or testing. One other
   command launches the project in my browser window for development.
   The slickest part is BrowserSync, which synchronizes movement and
@@ -69,7 +69,7 @@ already configured. It cuts out the boilerplate. I choose:
   sure it 'mostly works' on mobile. Combined with a watcher that
   automatically compiles my SCSS and Jade on the fly, the whole thing was
   fun to use. Highly recommended.
-* Amazon S3 and Cloudfront deployment with gulp. In other side projects, I've served
+- Amazon S3 and Cloudfront deployment with gulp. In other side projects, I've served
   the frontend from the same container as the backend. This is bad for a
   couple reasons. Deployments take longer, because you have to build both
   the front and backend each time. Docker generally works best with a single
@@ -92,7 +92,7 @@ management with Ansible to do deploys. The previous system was using
 Fabric. It worked, but wasn't as simple as Ansible. It also helped
 that I've been deploying my other side projects with Ansible and Docker
 for a year now. You can check out the Dockerfile that runs TriviaStats
-[here](https://github.com/pcsforeducation/90fm_trivia_stats/blob/master/Dockerfile).
+[here](https://github.com/joshgachnang/90fm_trivia_stats/blob/master/Dockerfile).
 
 The third upgrade was to do the deployment in a scalable, redundant, monitored
 way. While the load during Trivia isn't enough to require more than one

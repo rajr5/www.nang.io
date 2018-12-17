@@ -1,6 +1,7 @@
-import { Box } from "gestalt";
+import { Box, Button, Text } from "gestalt";
 import React, { Component } from "react";
 import profilePic from "./profile.jpg";
+import { Heading, Paragraph } from "../Lib";
 
 export default class Bio extends Component {
   render() {
@@ -20,37 +21,64 @@ export default class Bio extends Component {
               marginRight: 30
             }}
             src={profilePic}
-            alt="Josh Gachnang profile picture"
+            alt="Josh Gachnang"
           />
-          <h3 style={{ alignSelf: "center" }}>
-            Hello! I'm <span className="primary">Josh Gachnang</span>, a
-            software developer living in Chicago, currently working for Triggr
-            Health. I'm starting mobile app and web app freelancing in
-            September.
-          </h3>
+          <Box direction="column" alignSelf="center">
+            <Box marginBottom={4}>
+              <Text overflow="breakWord" leading="tall" size="xl">
+                Hello! I'm <span className="primary">Josh Gachnang</span>, a
+                freelance software developer living in Los Angeles. If you have
+                an idea for an app or website, I can help you bring it to life.{" "}
+              </Text>
+            </Box>
+            <a href="mailto:josh@nang.io">
+              <Button
+                inline
+                color="blue"
+                text="Contact me and let's get building!"
+                href="mailto:josh@nang.io"
+              />
+            </a>
+          </Box>
         </Box>
-        <h4>
-          I deeply believe in using software to make the world a better place.
-          I'm self-motivated and driven to make an impact. I enjoy sharing what
-          I've learned through mentoring, blogging, and giving talks. I also
-          enjoy working on side projects. Some of my favorites are{" "}
-          <a href="https://github.com/joshgachnang/val">Val</a>, a chatbot that
-          automates parts of my life,{" "}
-          <a href="https://avotoast.app">AvoToast</a>, a recipe, cost, and
-          nutrition tracking app, and{" "}
-          <a href="https://github.com/joshgachnang/magic-mirror">
-            Magic Mirror
-          </a>
-          , which runs displays and control panels throughout my house.
-        </h4>
 
-        <Box
-          alignSelf="center"
-          alignContent="center"
-          direction="column"
-          display="flex"
-          width="300px"
-        />
+        <Box paddingY={4}>
+          <Heading>My Services</Heading>
+          <Paragraph leading="tall">
+            I excel at quickly building beautiful experiences on iOS, Android,
+            and the web. From my past work at startups, I've learned how to pick
+            out what is important, launch quickly, and validate ideas. This
+            means lower cost and quicker feedback for you from your new users.
+            I've built a library of tools to get your app out to the world with
+            all the basic features built in.
+          </Paragraph>
+        </Box>
+        <Box paddingY={4}>
+          <Heading size="xl">About Me</Heading>
+          <Paragraph size="lg" leading="tall">
+            I've been doing software development since 2010, while I was
+            studying Computer Science at the University of Wisconsin - Madison.
+            I've worked for startups, large companies, and universities. I've
+            built mobile apps, web apps, cloud computing infrastructure, and
+            everything in between. I love learning new technologies.
+          </Paragraph>
+          <Paragraph leading="tall">
+            I deeply believe in using software to make the world a better place.
+            I enjoy sharing what I've learned through mentoring, blogging, and
+            giving talks. I also enjoy working on side projects. Some of my
+            favorites are <a href="https://github.com/joshgachnang/val">Val</a>,
+            a chatbot that automates parts of my life,
+            {/* 
+            {" "} <a href="https://avotoast.app">AvoToast</a>, a recipe, cost, and
+            nutrition tracking app,
+            */}{" "}
+            and{" "}
+            <a href="https://github.com/joshgachnang/magic-mirror">
+              Magic Mirror
+            </a>
+            , which runs displays and control panels throughout my house.
+          </Paragraph>
+        </Box>
       </Box>
     );
   }

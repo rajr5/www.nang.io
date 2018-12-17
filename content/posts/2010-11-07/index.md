@@ -4,7 +4,7 @@ cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:go
 date: "2010/11/07"
 category: "personal"
 tags:
-    - personal
+  - personal
 ---
 
 This isn’t a tutorial…yet. Hopefully, when we get a little further, I’ll post the tutorial so anyone can do this at their school and help countless people. We will be using the PXE Boot Server, FAI Server, Tech Tools, and a couple of other things that already have tutorials!

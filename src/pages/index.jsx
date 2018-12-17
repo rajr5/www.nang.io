@@ -9,7 +9,6 @@ import SEO from "../components/SEO/SEO";
 
 class Index extends React.Component {
   render() {
-    console.log("DATA", this.props.data);
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
       <Container>
@@ -27,7 +26,7 @@ class Index extends React.Component {
 
 export default Index;
 
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(

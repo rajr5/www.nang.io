@@ -1,18 +1,27 @@
 import React, { Component } from "react";
 import { Box, Text } from "gestalt";
+import { Heading, Paragraph } from "../Lib";
 
 export default class TopBar extends Component {
   renderExperience(exp) {
     return (
-      <Box key={exp.title} marginBottom={2}>
-        <Text size="lg" bold={true}>
-          {exp.title}
-        </Text>
+      <Box key={exp.title} paddingY={4}>
+        <a href={exp.link}>
+          <Text bold={true} color="blue" size="lg">
+            {exp.title} ({exp.subtitle})
+          </Text>
+        </a>
+        <Box marginTop={4}>
+          {exp.image && <img src={exp.image} alt={exp.title} />}
+        </Box>
         {/* todo underline */}
-        <Text size="md" italic={true}>
-          {exp.subtitle}
-        </Text>
-        <Text overflow="normal">{exp.body}</Text>
+
+        <Paragraph>{exp.body}</Paragraph>
+        {exp.link && (
+          <a href={exp.link}>
+            <Text color="blue">Read more..</Text>
+          </a>
+        )}
       </Box>
     );
   }
@@ -23,10 +32,8 @@ export default class TopBar extends Component {
     }
     return (
       <Box>
-        <Box marginTop={6} marginBottom={6}>
-          <Text size="xl" bold={true}>
-            <span className="primary">Experience</span>
-          </Text>
+        <Box marginTop={4} marginBottom={4}>
+          <Heading>Experience</Heading>
         </Box>
         {this.props.resume.map(exp => this.renderExperience(exp))}
       </Box>

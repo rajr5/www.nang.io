@@ -4,7 +4,11 @@
   "rules": {
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
-    "react/no-danger": "off"
+    "react/jsx-boolean-value": "off",
+    "react/no-danger": "off",
+    "react/no-multi-comp": "off",
+    "react/no-unescaped-entities": "off",
+    "class-methods-use-this": "off"
   },
   "settings": {
     "import/core-modules": []

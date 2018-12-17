@@ -7,6 +7,9 @@ class PostListing extends React.Component {
   getPostList() {
     const postList = [];
     this.props.postEdges.forEach(postEdge => {
+      if (!postEdge.node.frontmatter.date) {
+        return;
+      }
       postList.push({
         path: postEdge.node.fields.slug,
         tags: postEdge.node.frontmatter.tags,
@@ -28,7 +31,9 @@ class PostListing extends React.Component {
         </Text>
 
         <Box paddingY={4} display="flex" direction="column">
-          {postList.map(post => <PostCard key={post.title} post={post} />)}
+          {postList.map(post => (
+            <PostCard key={post.title} post={post} />
+          ))}
         </Box>
       </Box>
     );
@@ -50,7 +55,7 @@ class PostCard extends React.Component {
   }
 
   render() {
-    let post = this.props.post;
+    const { post } = this.props;
     return (
       <div
         style={{

@@ -4,9 +4,9 @@ cover: "https://res.cloudinary.com/avotoast/image/upload/c_limit,h_400,q_auto:go
 date: "2018/01/03"
 category: "tech"
 tags:
-    - aws
-    - javascript
-    - node
+  - aws
+  - javascript
+  - node
 ---
 
 Sometimes you just want to back something up with minimal configuration. No retained backups, nothing fancy, just a backup that's not on the same server. I think this might be the easiest solution I've seen. And it is super cheap, possibly free! S3's free tier gives you 5GB of data and 15GB of transfer for free. After that, [pricing is still very cheap](https://aws.amazon.com/s3/pricing/). It can be even cheaper if you choose Reduced Redundancy Storage, but I wouldn't recommend that for a backup.

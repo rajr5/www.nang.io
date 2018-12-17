@@ -1,7 +1,7 @@
+import { Box, Image, Text } from "gestalt";
 import React from "react";
-import Link from "gatsby-link";
-import { Box, Card, Image, Text } from "gestalt";
 import LazyLoad from "react-lazyload";
+import { Heading, Paragraph } from "../../Lib";
 
 class PostListing extends React.Component {
   getPostList() {
@@ -25,10 +25,10 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <Box marginTop={6} marginBottom={6}>
-        <Text size="xl" bold={true}>
-          <span className="primary">Blog</span>
-        </Text>
+      <Box>
+        <Box marginTop={6} marginBottom={6}>
+          <Heading>Blog</Heading>
+        </Box>
 
         <Box paddingY={4} display="flex" direction="column">
           {postList.map(post => (
@@ -82,7 +82,7 @@ class PostCard extends React.Component {
               </Box>
             </a>
           </Text>
-          <Text>{post.excerpt}</Text>
+          <Paragraph>{post.excerpt}</Paragraph>
         </Box>
       </div>
     );

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Box, Text } from "gestalt";
+import LazyLoad from "react-lazyload";
+
 import { Heading, Paragraph } from "../Lib";
 
 export default class TopBar extends Component {
@@ -12,7 +14,11 @@ export default class TopBar extends Component {
           </Text>
         </a>
         <Box marginTop={4}>
-          {exp.image && <img src={exp.image} alt={exp.title} />}
+          {exp.image && (
+            <LazyLoad height={400} offset={300}>
+              <img src={exp.image} alt={exp.title} />
+            </LazyLoad>
+          )}
         </Box>
         {/* todo underline */}
 

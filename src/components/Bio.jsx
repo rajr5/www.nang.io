@@ -18,7 +18,9 @@ export default class Bio extends Component {
               maxWidth: 200,
               maxHeight: 200,
               borderRadius: 200,
-              marginRight: 30
+              marginRight: 30,
+              alignSelf: "center",
+              justifySelf: "center"
             }}
             src={profilePic}
             alt="Josh Gachnang"
@@ -42,7 +44,7 @@ export default class Bio extends Component {
           </Box>
         </Box>
 
-        <Box paddingY={4}>
+        <Box paddingY={4} marginTop={8}>
           <Heading>My Services</Heading>
           <Paragraph leading="tall">
             I excel at quickly building beautiful experiences on iOS, Android,

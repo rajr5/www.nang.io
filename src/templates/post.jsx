@@ -15,7 +15,6 @@ export default class PostTemplate extends React.Component {
   render() {
     const { slug } = this.props.pathContext;
     const postNode = this.props.data.markdownRemark;
-    console.log("POST", this.props.data);
     const post = postNode.frontmatter;
     if (!post.id) {
       post.id = slug;

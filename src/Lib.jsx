@@ -17,7 +17,7 @@ export class Paragraph extends React.Component {
   render() {
     return (
       <Box paddingY={2}>
-        <Text overflow="breakWord" leading="tall" size="lg">
+        <Text leading="tall" size="lg">
           {this.props.children}
         </Text>
       </Box>

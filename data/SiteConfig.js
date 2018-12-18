@@ -53,7 +53,7 @@ module.exports = {
       title: "University of Maryland",
       subtitle: "2018",
       body:
-        "I worked as a freelance developer to migrate a Flash app to React.js, using a Python backend. The project took about 4 months with two other developers, and was delivered on time with all features implemented to spec. The part I'm most proud of was performantly rendering and updating tens of thousands of paths onto a Leaflet map."
+        "I worked as a freelance developer to migrate a Flash app to React.js, using a Python backend. The project took about 4 months with two other developers, and was delivered on time with all features implemented to spec. The part I'm most proud of was performantly rendering and updating tens of thousands of paths onto a Leaflet map to show traffic bottlenecks and incidents across multiple states."
       // link: "maryland"
     },
     {

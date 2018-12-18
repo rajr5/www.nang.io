@@ -27,7 +27,7 @@ export default class Bio extends Component {
           />
           <Box direction="column" alignSelf="center">
             <Box marginBottom={4}>
-              <Text overflow="breakWord" leading="tall" size="xl">
+              <Text leading="tall" size="xl">
                 Hello! I'm <span className="primary">Josh Gachnang</span>, a
                 freelance software developer living in Los Angeles. If you have
                 an idea for an app or website, I can help you bring it to life.{" "}
@@ -48,11 +48,12 @@ export default class Bio extends Component {
           <Heading>My Services</Heading>
           <Paragraph leading="tall">
             I excel at quickly building beautiful experiences on iOS, Android,
-            and the web. From my past work at startups, I've learned how to pick
-            out what is important, launch quickly, and validate ideas. This
-            means lower cost and quicker feedback for you from your new users.
-            I've built a library of tools to get your app out to the world with
-            all the basic features built in.
+            and the web. Together, we can flesh out your idea and design the app
+            together. From my past work at startups, I've learned how to pick
+            out what is important, launch quickly, and validate ideas. That
+            means lower cost for you and quicker feedback from your new users.
+            I've also built a library of tools to help us get your app off the
+            ground more quickly with all the basic functionality built in.
           </Paragraph>
         </Box>
         <Box paddingY={4}>

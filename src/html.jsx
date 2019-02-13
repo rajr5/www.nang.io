@@ -35,7 +35,8 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1.0"
           />
           {this.props.headComponents}
-          <link rel="shortcut icon" href={favicon} />
+          <link rel="shortcut icon" type="png" href={favicon} />
+          <link rel="apple-touch-icon" type="png" href={favicon} />
           {css}
           {/* <link
             rel="stylesheet"

@@ -52,8 +52,13 @@ module.exports = {
     {
       title: "University of Maryland",
       subtitle: "2018",
-      body:
-        "I worked as a freelance developer to migrate a Flash app to React.js, using a Python backend. The project took about 4 months with two other developers, and was delivered on time with all features implemented to spec. The part I'm most proud of was performantly rendering and updating tens of thousands of paths onto a Leaflet map to show traffic bottlenecks and incidents across multiple states."
+      body: `I was contracted to help the University of Maryland's Center for Advanced Transportation Technology
+        Laboratory migrate two Flash apps to React. We were able to migrate the apps ahead of schedule.
+        I built a feature, the bottleneck map, which involved displaying tens of thousands of continuously
+        updating shapes on a Leaflet map. I was able to optimize the Redux data store and the way we were
+        using React to make this smooth and performant. I also took lead adding some new, complex features
+        to the second app in time for a demo to a new client, which was delivered on time and worked as
+        the client expected.`
       // link: "maryland"
     },
     {

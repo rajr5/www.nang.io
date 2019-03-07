@@ -42,7 +42,7 @@ module.exports = {
   resume: [
     {
       title: "HomeSafe",
-      subtitle: "2018",
+      subtitle: "2018-2019",
       body:
         "HomeSafe is an app I built to demo the library of tools that I use to build client projects. I'm always forgetting to text my mom when I get home from driving long distance, so I decided to make a simple app to make both our lives easier. The app allows you to set up a location you're heading to and a list of contacts to text when you arrive safely. It tracks your location in the background and then uses Twilio to send a message when you get close to the location.",
       link: "home-safe",
@@ -51,7 +51,7 @@ module.exports = {
     },
     {
       title: "University of Maryland",
-      subtitle: "2018",
+      subtitle: "2018-2019",
       body: `I was contracted to help the University of Maryland's Center for Advanced Transportation Technology
         Laboratory migrate two Flash apps to React. We were able to migrate the apps ahead of schedule.
         I built a feature, the bottleneck map, which involved displaying tens of thousands of continuously

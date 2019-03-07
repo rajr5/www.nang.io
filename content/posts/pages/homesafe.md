@@ -2,6 +2,12 @@
 title: "HomeSafe"
 ---
 
+[Website](https://homesafe.nang.io)
+
+[Download for iOS](https://itunes.apple.com/US/app/id1412405669?mt=8)
+
+[Download for Android](https://play.google.com/store/apps/details?id=app.homesafe.locationtracking)
+
 HomeSafe is an app I built to demo the library of tools that I use to build client projects. I'm always forgetting to text my mom when I get home from driving long distance, so I decided to make a simple app to make both our lives easier. The app allows you to set up a location you're heading to and a list of contacts to text when you arrive safely. It tracks your location in the background and then uses Twilio to send a message when you get close to the location.
 
 The app is built using React Native. The backend is built using NodeJS and Firebase. The NodeJS talks to Twilio to send text messages. The app is meant to demo some of the features that are in my React Native starter project that I use to get client apps off the ground more quickly. Each of these features would take hours to days to implement from scratch in a new app, but with this library, basic setup only takes minutes. Some of the included features are:

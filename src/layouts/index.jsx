@@ -6,7 +6,6 @@ import "@fortawesome/fontawesome-pro/css/all.css";
 
 import config from "../../data/SiteConfig";
 import TopBar from "../components/TopBar";
-import Footer from "../components/Footer/Footer";
 import "./index.css";
 
 export default class MainLayout extends React.Component {
@@ -56,7 +55,6 @@ export default class MainLayout extends React.Component {
         </Helmet>
         <TopBar />
         {children()}
-        <Footer config={config} />
       </div>
     );
   }

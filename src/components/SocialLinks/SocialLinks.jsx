@@ -9,18 +9,16 @@ import {
   LinkedinShareCount,
   RedditShareCount
 } from "react-share";
-import FontAwesome from "react-fontawesome";
 import config from "../../../data/SiteConfig";
 import "./SocialLinks.css";
 
 class SocialLinks extends Component {
   render() {
-    const { postNode, postPath, mobile } = this.props;
+    const { postNode, postPath } = this.props;
     const post = postNode.frontmatter;
     const realPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
     const url = config.siteUrl + realPrefix + postPath;
 
-    const iconSize = mobile ? 36 : 48;
     const filter = count => (count > 0 ? count : "");
 
     return (

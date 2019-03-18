@@ -10,6 +10,7 @@ class PostTags extends Component {
         {tags &&
           tags.map(tag => (
             <Link
+              href={`/tags/${_.kebabCase(tag)}`}
               key={tag}
               style={{ textDecoration: "none" }}
               to={`/tags/${_.kebabCase(tag)}`}

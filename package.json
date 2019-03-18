@@ -6,6 +6,7 @@
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-pro": "^5.1.0",
     "babel-plugin-lodash": "^3.3.2",
     "gatsby": "^1.9.178",
     "gatsby-link": "^1.6.36",
@@ -40,7 +41,6 @@
     "react-twitter-widgets": "^1.7.1"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-pro": "^5.1.0",
     "cli-glob": "^0.1.0",
     "eslint": "^4.17.0",
     "eslint-config-airbnb": "^16.1.0",

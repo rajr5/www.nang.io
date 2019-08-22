@@ -47,6 +47,22 @@ If you have any question about the Terms, please contact us at josh@nang.io.
 - Josh Gachnang reserves the right to enforce quotas and usage limits (to any resources, including the API) at its sole discretion, with or without notice, which may result in Josh Gachnang disabling or throttling your usage of the Service for any amount of time.
 - You may not allow multiple people to use the same account or otherwise access the Service in a manner intended to avoid incurring fees.
 
+### Food/Recipe/Meal Plan Database
+
+- You acknowledge that the foods, recipes, and meal plans are provided by AvoToast from various sources, including employees of AvoToast and
+  community members. Josh Gachnang makes no guarantee any of these are accurate. Not all information is reviewed by Josh Gachnang or by a
+  dietician.
+- Josh Gachnang does not guarantee the accuracy, usefulness, or completeness of the information available in the AvoToast app. Josh Gachnang
+  does not accept any responsibility for the reliability or accuracy of this data. Josh Gachnang will not be responsible for any harm, damages,
+  loss, or other issues from the data provided by this app. If you have concerns, contact a dietician.
+- Data provided by AvoToast may not be used for any other purpose outside of the app.
+- AvoToast does not provide professional medical advice or services. None of the content should be considered medical advice.
+- AvoToast and Josh Gachnang do not have a doctor-patient relationship with any user in the AvoToast app. You should contact a doctor if you
+  have any concerns with your weight loss or eating habit for medical advice. You agree you will consult with a doctor before and during your
+  usage of AvoToast if you are at risk from dieting, excerise, changes in your diet, or if you have any allergies or medical conditions. If any
+  information you receive from Josh Gachnang or AvoToast is inconsisent with medical advice, you should follow your doctor's medical advice over
+  the advice from AvoToast.
+
 ### Service Policies and Privacy
 
 The Service shall be subject to the privacy policy for the Service available at [privacy policy](https://www.nang.io/AvoToast_privacy). You agree to the use of Your data in accordance with Josh Gachnang's privacy policies.
@@ -64,20 +80,11 @@ The Service shall be subject to the privacy policy for the Service available at 
 
 ### Cancellation and Termination
 
-- You must cancel Your account via an email request to josh@nang.io.s
+- You must cancel Your account via an email request to josh@nang.io.
 - You will not receive any refunds if You cancel Your account.
 - If You cancel the Service before the end of Your current paid up month, Your cancellation will take effect immediately and You will not be charged again.
 - All of Customer Source Code and Content will, within a reasonable amount of time to be determined solely by Josh Gachnang, be deleted from the Service upon cancellation.
 - You agree that Josh Gachnang, in its sole discretion and for any or no reason, may terminate or suspend Your account. You agree that any termination of Your access to the Service may be without prior notice, and You agree that Josh Gachnang will not be liable to You or any third party for such termination.
-
-### Customer Source Code
-
-- Josh Gachnang claims no ownership or control over any Customer Source Code. You retain copyright and any other rights You already hold in the Customer Source Code and You are responsible for protecting those rights, as appropriate.
-- You agree to assume full responsibility for configuring the Service to allow appropriate access to any Customer Source code provided to the Service.
-- You understand that public projects display Customer Source Code to any party on the Internet, including search engines and web spiders.
-- You understand that private projects will display Customer Source Code to You and any collaborators that you designate for that project.
-- You retain sole responsibility for any collaborators or third-party services that you allow to view Customer Source Code and entrust them at your own risk.
-- Josh Gachnang is not responsible if you fail to configure, or misconfigure, your project and inadvertently allow unauthorized parties view any Customer Source Code.
 
 ### Ideas and Feedback
 
